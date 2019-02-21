@@ -4,9 +4,9 @@ console.log("Scrpit By Dream");
 
 
 client.on("ready", () => {
-let channel =     client.channels.get("518430573044432942")
+let channel =     client.channels.get("510168817494654988")
 setInterval(function() {
-channel.send(`mahmod xd`);
+channel.send(`AlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseri`);
 }, 30)
 })
 
