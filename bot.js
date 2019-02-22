@@ -41,6 +41,13 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if(message.content === prefix+'credit'){
+        message.channel.send("#credit "+"<@" + myid + 3000 + ">")
+    }
+});
+
+
+client.on('message', message => {
 if (message.content === prefix+'spam') {
       let count = 0;
       let ecount = 0;
