@@ -40,11 +40,7 @@ client.on('message', message => {
     }
 });
 
-client.on('message', message => {
-    if(message.content === prefix+'credit'){
-        message.channel.send('#credit @- Preficter ,#0065 3000')
-    }
-});
+
 
 
 client.on('message', message => {
