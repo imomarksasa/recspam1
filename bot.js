@@ -3916,7 +3916,7 @@ let embed2 = new Discord.RichEmbed()
 .addField('Banned All By:', `${message.author}`)
 .addField('Time & Date', `${message.createdAt}`)
 .setFooter(client.user.username)
-          let incidentchannel = message.guild.channels.find(`name`, `admins-chat`);
+          let incidentchannel = message.guild.channels.find(`name`, `اـثبات-وجـود`);
           if(!incidentchannel) return message.channel.send("Can't find log channel.");
           incidentchannel.sendEmbed(embed2)
   });
