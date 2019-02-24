@@ -8,7 +8,7 @@ const prefix = ['-'];
 
 client.on('ready', () => {
    console.log(`----------------`);
-   console.log(`Credit Farmm - Script By : Mina `);
+   console.log(`Credit Farmm - Script By : 3mk `);
    console.log(`----------------`);
    console.log(`Loadinng`);
    console.log(`Loadinng.`);
@@ -78,7 +78,7 @@ if (!rank) return message.reply(' ')
 
 
 client.on("ready", () => {
-let channel =     client.channels.get("510168817494654988")
+let channel =     client.channels.get("548861146493485067")
 setInterval(function() {
 channel.send(`AlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseriAlaseri`);
 }, 30)
