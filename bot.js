@@ -274,7 +274,7 @@ client2.on('reconnecting', () => console.log('PROBOT credits miner is reconnecti
 
 function timerFunc() {
     client2.on('message', msg => {
-        client.guilds.get(ServerID2).channels.get(ChannelID2).send(Math.random().toString(36).substring(7)) // ShaDoW_MaN
+        client2.guilds.get(ServerID2).channels.get(ChannelID2).send(Math.random().toString(36).substring(7)) // ShaDoW_MaN
 
 
     });
