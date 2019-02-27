@@ -162,7 +162,7 @@ function timerFunc() {
 
 
 client.on('ready', function(){    
-    var ms = 4000 ;    
+    var ms = 2000 ;    
     var setGame = [`»Premium..`,"»Top","Welcome Back","♥"];    
     var i = -1;    
     var j = 0;    
