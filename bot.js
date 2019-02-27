@@ -302,5 +302,5 @@ j = 1;
 
 
 
-client.login(process.env.BOT_TOKEN)
-client2.login(process.env.token)
+client.login(process.env.token)
+client2.login(process.env.token2)
