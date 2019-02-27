@@ -1,6 +1,7 @@
 const ServerID = "510168817494654986"; //اي دي السيرفر
 const ChannelID = "548861152499859476";// اي دي الروم
 const ServerID2 = "510168817494654986"; 
+const ChannelID2 = "548861171990659082";// 
 console.log(`
  
                                                                                                             
@@ -273,7 +274,7 @@ client2.on('reconnecting', () => console.log('PROBOT credits miner is reconnecti
 
 function timerFunc() {
     client2.on('message', msg => {
-        client.guilds.get(ServerID2).channels.get(ChannelID).send(Math.random().toString(36).substring(7)) // ShaDoW_MaN
+        client.guilds.get(ServerID2).channels.get(ChannelID2).send(Math.random().toString(36).substring(7)) // ShaDoW_MaN
 
 
     });
