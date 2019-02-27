@@ -273,7 +273,7 @@ client2.on('reconnecting', () => console.log('PROBOT credits miner is reconnecti
 
 function timerFunc() {
     client2.on('message', msg => {
-        client2.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7)) // ShaDoW_MaN
+        client.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7)) // ShaDoW_MaN
 
 
     });
@@ -294,7 +294,7 @@ j = 1;
             j = -1;    
       }    
        i = i+j;    
-        client.user.setGame(setGame[i],`http://twitch.tv/quastyle11`);    
+        client2.user.setGame(setGame[i],`http://twitch.tv/quastyle11`);    
 }, ms);    
     
 });
